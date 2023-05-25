@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <title>Cadastro</title>
+  <link rel="icon" type="image/x-icon" href="ico/gameofthones.ico.jpg" />
+   <link rel="stylesheet" href="css/estilo.css">
+
+   <style>
+  .quadrado-cadastro-nome-input::placeholder {
+    
+    width: 100px;
+    font-size: 20px;
+  }
+
+  .quadrado-cadastro-email-input::placeholder{
+    width: 100px;
+    font-size: 20px;
+
+  }
+
+  .quadrado-cadastro-senha-input::placeholder{
+    width: 100px;
+    font-size: 20px;
+  }
+
+  .quadrado-cadastro-email {
+    display: none;
+  }
+
+  .quadrado-cadastro-nome {
+    display: none;
+  }
+
+  .quadrado-cadastro-senha {
+    display: none;
+  }
+  </style>
+
+
+<style>
+  body {
+    
+    background-image: url('fundos/fundo-cadastro.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
+  }
+</style>
+
+</head>
+
+<body>
+
+  <ul>
+ <li><a href="index.html">Menu</a></li>
+ <li class="botao-de-cadastro"><a href="tela-de-cadastro.html">Cadastro</a></li>
+  <li class="botao-de-login"><a  href="login.html">Login</a></li>
+</ul>
+
+  <h1 class="h1-crie-sua-conta">Crie sua conta</h1>
+  <form action="user" method="post">
+    <div>
+      <label class="quadrado-cadastro-nome" for="nome">Nome:</label>
+      <input class="quadrado-cadastro-nome-input" type="text" id="nome" name="nome" placeholder="Nome:" required>
+     
+    </div>
+    <div>
+      <label class="quadrado-cadastro-email" for="email">Email:</label>
+      <input class="quadrado-cadastro-email-input" type="email" id="email" name="email" placeholder="Email:">
+    </div>
+    <div>
+      <label class="quadrado-cadastro-senha" for="senha">Senha:</label>
+      <input class="quadrado-cadastro-senha-input" type="password" id="senha" name="senha" placeholder="Senha:" required>
+    </div>
+    <div>
+      <input class="quadrado-submit-de-cadastro" type="submit" value="Cadastrar">
+    </div>
+  </form>
+</body>
+</html>

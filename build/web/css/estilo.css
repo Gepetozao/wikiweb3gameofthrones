@@ -1,0 +1,544 @@
+
+
+
+
+
+
+ul {
+    background-color: rgba(187, 254, 255, 0.945);
+    padding:20px;
+  border: 3px solid rgb(38, 157, 179);
+ }
+li{
+    display: inline-block;
+   
+}
+
+li a{
+color: rgb(32, 32, 31);
+text-decoration: none;
+padding:20px;
+}
+
+li a:hover {
+    background: rgb(208, 233, 233) ;
+    
+}
+.botao-de-login{
+float: right;
+
+  }
+
+  .botao-de-cadastro{
+    float: right;
+    
+      }
+      .quadrado-cadastro-nome {
+        position: absolute;
+        top: 30%;
+        left: 35%;     
+      }
+
+      .quadrado-cadastro-nome-input {
+        position: absolute;
+        top: 30%;
+        left: 29%;
+        border: 12px ridge  rgb(146, 229, 250);
+            border-radius: 5px;
+            height: 50px;
+            width: 550px;
+      }
+
+      .quadrado-cadastro-email {
+        position: absolute;
+        top: 50%;
+        left: 35%;
+      }
+
+      .quadrado-cadastro-email-input{
+        position: absolute;
+        top: 50%;
+        left: 29%;
+        border: 12px ridge  rgb(146, 229, 250);
+            border-radius: 5px;
+            height: 50px;
+            width: 550px;
+      }
+
+      .quadrado-cadastro-senha{
+        position: absolute;
+        top: 70%;
+        left: 35%;
+
+      }
+
+      .quadrado-cadastro-senha-input{
+        position: absolute;
+        top: 70%;
+        left: 29%;
+        border: 12px ridge  rgb(146, 229, 250);
+            border-radius: 5px;
+            height: 50px;
+            width: 550px;
+      }
+
+        .quadrado-submit-de-cadastro{
+            position: absolute;
+            top: 83.5%;
+            left: 46%;
+            border: 12px ridge  rgb(146, 229, 250);
+
+        }
+        .h1-crie-sua-conta{
+        position: absolute;
+        top: 40;
+        left: 43%;
+        border: 5px dotted;
+        background-color: aliceblue;
+        }
+
+        .quadrado-login-email{
+            position: absolute;
+            top: 35%;
+            left: 35%; 
+        }
+
+        .quadrado-login-email-input{
+            position: absolute;
+            top: 35%;
+            left: 30%;
+            border: 12px ridge  rgb(146, 229, 250);
+            border-radius: 5px;
+            height: 50px;
+            width: 550px;
+        }
+
+        .quadrado-login-senha{
+           position: absolute;
+           top: 55%;
+           left: 35%;
+        }
+
+        .quadrado-login-senha-input{
+            position: absolute;
+            top: 55%;
+            left: 30%;
+            border: 12px ridge  rgb(146, 229, 250);
+            border: 12px ridge  rgb(146, 229, 250);
+            border-radius: 5px;
+            height: 50px;
+            width: 550px;
+        }
+        
+        .h1-login{
+          background-color: aliceblue;
+         position: absolute;
+         top: 38;
+         left: 47.5%;
+         border: 5px dotted;
+        }
+
+        .quadrado-login-submit{
+        position: absolute;
+        top: 68%;
+        left: 48%;
+        border: 12px ridge  rgb(146, 229, 250);   
+        }
+
+
+
+     .fotodoreinocoroa{
+     position: absolute;
+        top: 18%;
+        left: 15%;
+     }
+
+    .linkdacoroa {
+      position: absolute;
+      top: 65%;
+      left: 18.5%;
+      background-color: aliceblue;
+      border: 12px ridge  rgb(146, 229, 250);
+      border-radius: 5px;
+     }
+
+     .fortalezavermelha{
+      position: absolute;
+      top: 25.5%;
+      left: 15.5%;
+      border: 5px ridge black;
+     
+
+     }
+
+     .h1fortalezavermelha {
+      position: absolute;
+      top: 13%;
+      left: 15.5%;
+      background-color: aliceblue;
+      border: 10px ridge  rgb(146, 229, 250);
+      border-radius: 5px;
+      
+
+     }
+    .fundoigualpapel{
+      background-color: #FFFFFF; 
+      padding: 34%; /* Espaçamento interno do conteúdo */
+      margin: 30; /* Espaçamento externo ao redor do bloco */
+      width: 6%; /* Largura desejada */
+      margin-left: 13.5%;
+      height: 50px;
+      max-height: auto;
+      
+
+     }
+     .h2cidadeportoreal {
+      position: absolute;
+      top: 13%;
+      left: 60%;
+      background-color: aliceblue;
+      border: 10px ridge  rgb(146, 229, 250);
+      border-radius: 5px;
+      
+     }
+
+     .portoreal {
+      position: absolute;
+      top: 25.5%;
+      left: 51.5%;
+      border: 5px ridge black;
+
+     }
+
+     .rei_robert_reino {
+      position: absolute;
+      top:75%;
+      left: 15.5%;
+      border: 5px ridge black;
+     }
+
+     .rei_robert_nome{
+      position: absolute;
+      top: 72%;
+      left: 33.2%;
+      background-color: aliceblue;
+      border: 10px ridge  rgb(0, 0, 0);
+      border-radius: 5px;  
+     }
+
+     .historia_personagem {
+      background-color: #FFFFFF; 
+      padding: 120%; /* Espaçamento interno do conteúdo */
+      margin: 1%; /* Espaçamento externo ao redor do bloco */
+      width: 755%; /* Largura desejada */
+      height: -300%;
+      margin-left: -331%;
+      margin-top: -14%;
+     }
+
+     .bio_robert{
+    font-size: 150%;
+    margin-top: -14%;
+
+     }
+
+    .reinodonorte {
+      position: absolute;
+      top: 18%;
+      left: 32.5%;
+    }
+
+    .linkdoreinodonorte {
+      position: absolute;
+      top: 65%;
+      left: 35.9%;
+      background-color: aliceblue;
+      border: 12px ridge  rgb(146, 229, 250);
+      border-radius: 5px;
+    }
+
+    .casastarks {
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      border: 5px ridge black;
+     margin-left: 140px;
+    }
+
+    .linkdosstarks {
+      position: absolute;
+      top: 65%;
+      left: 66.5%;
+      background-color: aliceblue;
+      border: 10px ridge  rgb(146, 229, 250);
+      border-radius: 5px; 
+    }
+
+    .fotodafamilia {
+      position: absolute;
+      top: 30%;
+      left: 13.5%;
+      border: 5px ridge black;
+    }
+
+
+    .h1familianome {
+      position: absolute;
+      top: 18%;
+      left: 13.5%;
+      background-color: aliceblue;
+      border: 10px ridge  rgb(146, 229, 250);
+      border-radius: 5px;
+    }
+
+    .primeiro_membro_da_familia {
+      position: absolute;
+      top: 34%;
+      left: 50%;
+      border: 5px ridge black;
+     margin-left: 140px;
+    }
+
+    .segundo_membro_da_familia {
+     position: absolute;
+    top: 34%;
+    left: 63%;
+    border: 5px ridge black;
+   margin-left: 140px;
+    }
+
+  .linkdoprimeiromembro {
+    position: absolute;
+    top: 67%;
+    left: 62.3%;
+    background-color: aliceblue;
+    border: 10px ridge  rgb(146, 229, 250);
+    border-radius: 5px;
+  }
+
+  .linkdosegundomembro {
+    position: absolute;
+    top: 67%;
+    left: 75%;
+    background-color: aliceblue;
+    border: 10px ridge  rgb(146, 229, 250);
+    border-radius: 5px;
+  }
+
+  .fundoigualpapelmaiscurto {
+    background-color: #FFFFFF; 
+    padding: 250px; /* Espaçamento interno do conteúdo */
+    margin: 34px; /* Espaçamento externo ao redor do bloco */
+    width: 500px; /* Largura desejada */
+    margin-left: 13%; 
+    height: 1px;
+
+  }
+
+  .nome_personagem {
+    position: absolute;
+    top: 16%;
+    left: 15%;
+    background-color: aliceblue;
+    border: 10px ridge  rgb(0, 0, 0);
+    border-radius: 5px;  
+  }
+  .foto_personagem {
+    position: absolute;
+      top: 25%;
+      left: 15%;
+      border: 5px ridge black;
+  }
+
+  .bio_personagem {
+      font-size: 143.5%;
+      margin-top: -21%;
+      margin-left: 8%;
+  }
+
+  .quadrado_da_bio {
+    background-color: #FFFFFF; 
+    padding: 140px; /* Espaçamento interno do conteúdo */
+    margin: 1px; /* Espaçamento externo ao redor do bloco */
+    width: 600px; /* Largura desejada */
+    height: 87px;
+    margin-left: -135px;
+    margin-top: -40%;
+  }
+
+  .targaryen {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+  }
+
+  .linkdetargaryen {
+    position: absolute;
+    top: 65%;
+    left: 56.5%;
+    background-color: aliceblue;
+    border: 12px ridge  rgb(146, 229, 250);
+    border-radius: 5px;
+  }
+
+  .casatargaryen {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    border: 5px ridge black;
+   margin-left: 140px;
+  }
+
+  .terceiro_membro_da_familia {
+    position: absolute;
+    top: 34%;
+    left: 37.5%;
+    border: 5px ridge black;
+   margin-left: 140px;
+
+  }
+
+  .linkdoterceiromembro {
+    position: absolute;
+    top: 66.9%;
+    left: 50%;
+    background-color: aliceblue;
+    border: 10px ridge  rgb(146, 229, 250);
+    border-radius: 5px;
+  }
+
+  .reinorochedo{
+    position: absolute;
+    top: 18%;
+    left: 70.5%;
+  }
+
+  .linkdoreinodorochedo {
+    position: absolute;
+    top: 65%;
+    left: 73.5%;
+    background-color: aliceblue;
+    border: 12px ridge  rgb(146, 229, 250);
+    border-radius: 5px;
+  }
+
+  .reinodasterrasfluviaiseinsulares {
+    position: absolute;
+    top: 73%;
+    left: 15%;  
+  }
+
+  .linkdoreinodasterrasfluviaiseinsulares{
+    position: absolute;
+    top: 120%;
+    left: 13.2%;
+    background-color: aliceblue;
+    border: 12px ridge  rgb(146, 229, 250);
+    border-radius: 5px;
+  }
+
+  .casa2 {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    border: 5px ridge black;
+   margin-left: 140px;
+  }
+
+  .linkcasa2 {
+    position: absolute;
+    top: 65%;
+    left: 46%;
+    background-color: aliceblue;
+    border: 10px ridge  rgb(146, 229, 250);
+    border-radius: 5px; 
+  }
+
+  .h1pyke{
+    position: absolute;
+    top: 14%;
+    left: 20%;
+    background-color: aliceblue;
+    border: 10px ridge  rgb(146, 229, 250);
+    border-radius: 5px;
+  }
+
+  .h2casatully {
+    position: absolute;
+    top: 15%;
+    left: 40.3%;
+    background-color: aliceblue;
+    border: 10px ridge  rgb(146, 229, 250);
+    border-radius: 5px;
+  }
+
+   .h2casagreyjoy {
+    position: absolute;
+    top: 15%;
+    left: 60.8%;
+    background-color: aliceblue;
+    border: 10px ridge  rgb(146, 229, 250);
+    border-radius: 5px;
+  }
+
+  .reinodovaledasmontanhas {
+    position: absolute;
+    top: 73%;
+    left: 32.7%;
+  }
+
+  .linkdoreinodovaledasmontanhas {
+    position: absolute;
+    top: 120%;
+    left: 32.8%;
+    background-color: aliceblue;
+    border: 12px ridge  rgb(146, 229, 250);
+    border-radius: 5px;
+  }
+
+  .reinodacampina {
+    position: absolute;
+    top: 73%;
+    left: 50%;
+  }
+  
+  .linkdoreinodacampina {
+    position: absolute;
+    top: 120%;
+    left: 52.8%;
+    background-color: aliceblue;
+    border: 12px ridge  rgb(146, 229, 250);
+    border-radius: 5px;
+  }
+
+  .principadodedorne {
+    position: absolute;
+    top: 73%;
+    left: 68%;
+  }
+
+  .linkdoprincipadodedorne {
+    position: absolute;
+    top: 120%;
+    left: 71.6%;
+    background-color: aliceblue;
+    border: 12px ridge  rgb(146, 229, 250);
+    border-radius: 5px;
+  }
+
+  .casadorne {
+    position: absolute;
+    top: 25%;
+    left: 47%;
+    border: 5px ridge black;
+   margin-left: 140px;
+  }
+
+  .linkdacasadorne {
+    position: absolute;
+    top: 54%;
+    left: 65.3%;
+    background-color: aliceblue;
+    border: 10px ridge  rgb(146, 229, 250);
+    border-radius: 5px; 
+  }
